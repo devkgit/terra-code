@@ -22,6 +22,6 @@ resource "aws_instance" "sandbox" {
   tags {
     Environment = "sandbox"
     OS          = "RHEL"
-    Name        = "sandbox2"
+    Name        = "sandbox3"
   }
 }
